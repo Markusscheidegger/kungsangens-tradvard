@@ -1,0 +1,53 @@
+/* Grundinställningar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Sätt centrering och bakgrundsinställningar specifikt för vår container */
+.arbets-pagar-container {
+    height: 100vh; /* Full höjd på skärmen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Ljusgrå bakgrund */
+}
+
+/* Stylar endast h1 elementet inom .arbets-pagar-container */
+.arbets-pagar-container h1 {
+    font-size: 4rem;  /* Stor text */
+    color: #0b4a1c;  /* Tomatröd textfärg */
+    font-weight: bold;
+    text-transform: uppercase;  /* Stora bokstäver */
+    letter-spacing: 5px;  /* Lite mer mellanrum mellan bokstäverna */
+    animation: pulse 1.5s infinite;  /* Animation för att få texten att pulsera */
+}
+
+/* Animering för att få texten att pulsera */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Media Queries för responsivitet */
+@media screen and (max-width: 768px) {
+    .arbets-pagar-container h1 {
+        font-size: 3rem; /* Minska textstorleken för mindre skärmar */
+        letter-spacing: 3px; /* Minska mellanrum mellan bokstäver */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .arbets-pagar-container h1 {
+        font-size: 2.5rem; /* Ytterligare minskning av textstorlek för ännu mindre skärmar */
+        letter-spacing: 2px; /* Justera mellanrum för små skärmar */
+    }
+}

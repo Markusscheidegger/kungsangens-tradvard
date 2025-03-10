@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kungsängens Trädvård</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" type="image/x-icon" href="images/tree.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap">
+
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+                 <!--
+        <script type="text/javascript">
+            (function(){
+                emailjs.init("hHyglfSMZRxBMFmkO");
+            })();
+        </script>
+        -->
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="index.html" id="navbar__logo"><i class="fa-solid fa-tree">&nbsp;</i>Kungsängens Trädvård</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="index.html" class="navbar__links"> Hem</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="om-ktv.html" class="navbar__links">Om&nbsp;KTV</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="kontakt.html" class="navbar__links">Kontakt</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href="" class="button">Tjänster</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--HERO SECTION-->
+
+        <div class="tjanster">
+            <div class="container">
+                <div class="content">
+                    <h1>Våra Tjänster</h1>
+                    <div class="section__1">
+                        <h2>Beskärning eller fällning av träd med 50% RUT-avdrag</h2>
+                        <p>Eftersom varje träd och beskärningsuppdrag är unikt* så lämnas offert endast efter besiktning av trädet. 
+                            När det gäller sektionsfällningar (då vi klättrar i trädet och tar ned det bit för bit) samt svårare 
+                            fällningar och beskärningar så är vi av säkerhetsskäl alltid två personer med rätt klätterutrustning och 
+                            kompetens. Höga höjder, känsliga rep, vassa verktyg och tunga grenar är en farlig kombination och för oss 
+                            kommer säkerheten alltid i första hand!
+                            Offert lämnas kostnadsfritt inom Upplands-Bro kommun. I Järfälla och Bålsta debiteras en 
+                            framkörningsavgift på 250 kr. Om du inte kan vara med när vi besiktigar så markerar du ut de träd och 
+                            buskar som ska beskäras så återkommer vi på mail med ett förslag.
+                            RUT-avdraget görs direkt på fakturan på 50% av arbetskostnaden och ansökan hos Skatteverket administreras 
+                            av Kungsängens trädvård</p>
+                    </div>
+                    <div class="section__2">
+
+                        <form>
+                            <h2>Fyll i uppgifterna så återkommer jag inom till er med en offert</h2>
+                            <fieldset class="set__1">
+                                <label for="name">Namn:&nbsp;
+                                    <input type="text" name="name" id="name" placeholder="Björn Björkkvist" required>
+                                </label>
+                                <label for="mail">Mailadress:&nbsp; 
+                                    <input type="email" name="mail" id="mail" placeholder="bjorn.bjorkkvist@mail.com" required>
+                                </label>
+                                <label for="phone">Telefonnummer:&nbsp;
+                                    <input type="text" name="phone" id="phone" required>
+                                </label>
+                                <label for="adress">Adress:&nbsp;
+                                    <input type="text" name="adress" id="adress" placeholder="Stubbstigen 12, 111 22 Lövköping" required>
+                                </label>
+                                <label for="message">Beskriv kort vad uppdraget är:&nbsp;
+                                    <textarea name="message" id="message" rows="4" placeholder=" ...beskärning av äppelträd" required></textarea>
+                                </label>
+                            </fieldset>
+                            <fieldset class="set__2">
+                                <label>
+                                    <input type="radio" name="val" id="btn__1" value="Jag vill att ni återkommer med förslag på dag och tid då vi tillsammans tittar på trädet/träden!" required>
+                                    Jag vill att ni återkommer med förslag på dag och tid då vi tillsammans tittar på trädet/träden!
+                                </label>
+                                <label>
+                                    <input type="radio" name="val" id="btn__2" value="Ni har tillåtelse att gå in i trädgården för att på egen hand titta på trädet/träden om ni meddelar 
+                                    tid innan. Jag skickar med fotografier på aktuella träd eller markerar med färgband." required>
+                                    Ni har tillåtelse att gå in i trädgården för att på egen hand titta på trädet/träden om ni meddelar
+                                    tid innan. Jag skickar med fotografier på aktuella träd eller markerar med färgband.
+                                </label>
+                            </fieldset>
+                            <p>Hör av dig på mail eller telefon om du har frågor. Se rubriken  <a href="kontakt.html">Kontakt</a>.</p>
+                            <p><em>*Förutom trädets storlek och typen av beskärning så påverkas priset om
+                            grenar behöver firas ned (s.k. riggning) eller om grenar och stammar ska
+                             flisas/forslas bort. Detta specifieras i offerten.</em></p>
+                            <button type="submit">Skicka</button>
+                            
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer Section-->
+        <div class="footer__container">
+            <div class="social__media">
+                <div class="social__media--wrap">
+                    <div class="footer__logo">
+                        <a href="/" id="footer__logo"><i class="fas fa-tree">&nbsp;</i>Kungsängens Trädvård</a>
+                    </div>
+                    <p class="website__right">© Kungsängens Trädvård 2024</p>
+                    <div class="social__icons">
+                        <a href="/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="other__media">
+                <div class="email">
+                    <a href="mailto:kungsangenstradvard@gmail.com" class="social__icon--link" target="_blank">
+                        <i class="fa-regular fa-envelope">&nbsp;&nbsp;</i>kungsangenstradvard@gmail.com
+                    </a>
+                </div>
+                <div class="number">
+
+                    <a href="tel:+46734216733" class="social__icon--link" target="_blank">
+                        <i class="fa-solid fa-phone">&nbsp;&nbsp;</i>073-421 67 33</a>
+                    &nbsp;(sms:a gärna så ringer jag upp)!
+                </div>
+            </div>
+        </div>
+
+        <script src="config.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
+
